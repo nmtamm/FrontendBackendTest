@@ -2,3 +2,4 @@ venv/
 test.db
 .idea/
 Simple/backend/venv/
+.venv/
