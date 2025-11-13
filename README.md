@@ -3,7 +3,7 @@
 cd backend
 ```
 
-## Build docker file
+## Build Dockerfile
 ```
 docker build -t myapp .
 ```
@@ -15,7 +15,7 @@ docker run --rm -it -p 8000:8000 myapp
 
 # For frontend
 ```
-cd backend
+cd frontend
 ```
 
 ## Install Vite plugin
@@ -23,7 +23,7 @@ cd backend
 npm install tailwindcss @tailwindcss/vite
 ```
 
-## Install misisng dependencies (if needed)\
+## Install missing dependencies (if needed)
 ```
 npm install @radix-ui/react-slot class-variance-authority sonner clsx date-fns tailwind-merge @radix-ui/react-label @radix-ui/react-dialog lucide-react @radix-ui/react-popover react-day-picker
 ```
@@ -33,5 +33,5 @@ npm install @radix-ui/react-slot class-variance-authority sonner clsx date-fns t
 npm run dev
 ```
 
-## For testing purpose
-Access this follow link: http://localhost:5173/
+## For testing purposes
+Access the following link: http://localhost:5173/
